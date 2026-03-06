@@ -1,26 +1,26 @@
 # Login UI From Figma
 
-## Mo ta du an
+## Project Overview
 
-Day la du an cat giao dien trang dang nhap tu thiet ke Figma sang giao dien web. Muc tieu chinh cua du an la tai hien bo cuc, mau sac, typography va hieu ung thi giac gan voi ban thiet ke goc, dong thoi thu nghiem nhieu cach trien khai giao dien khac nhau.
+This project is a front-end implementation of a login page based on a Figma design. The main goal is to recreate the original layout, color palette, typography, and visual style as closely as possible while exploring different ways to build the same interface on the web.
 
-Giao dien duoc xay dung theo phong cach hien dai, chia thanh hai khu vuc chinh:
+The page follows a modern two-column layout:
 
-- Ben trai la khu vuc minh hoa voi hinh anh trang tri, thong diep va mau nen noi bat.
-- Ben phai la khu vuc dang nhap gom logo, tieu de, nut dang nhap bang Google, form email/password va cac lien ket ho tro.
+- The left section contains decorative illustrations, background elements, and supporting marketing text.
+- The right section contains the login area, including the logo, heading, Google sign-in button, email/password form, and support links.
 
-## Diem noi bat
+## Highlights
 
-- Cat giao dien dua tren thiet ke Figma.
-- Co 3 phien ban trien khai giao dien:
-  - `index.html`: HTML/CSS thuan.
-  - `index-bt.html`: phien ban su dung Bootstrap.
-  - `index-tw.html`: phien ban su dung Tailwind CSS.
-- Su dung hinh anh va cac phan tu trang tri de giu dung tinh than cua ban thiet ke.
-- Co responsive co ban, an bot phan minh hoa tren man hinh nho de uu tien khu vuc form.
-- Co xu ly kiem tra du lieu form bang JavaScript.
+- Converted a Figma design into a real web interface.
+- Built in 3 different versions:
+  - `index.html`: pure HTML/CSS version
+  - `index-bt.html`: Bootstrap version
+  - `index-tw.html`: Tailwind CSS version
+- Uses image assets and decorative elements to stay close to the original design.
+- Includes basic responsive behavior by hiding the illustration area on smaller screens and prioritizing the login form.
+- Includes JavaScript-based form validation.
 
-## Cong nghe su dung
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -28,18 +28,18 @@ Giao dien duoc xay dung theo phong cach hien dai, chia thanh hai khu vuc chinh:
 - Bootstrap 5
 - Tailwind CSS
 
-## Chuc nang hien co
+## Current Features
 
-- Hien thi giao dien dang nhap theo bo cuc 2 cot.
-- Nut `Continue with Google` cho mo phong dang nhap ben thu ba.
-- Form dang nhap gom email va password.
-- Kiem tra du lieu dau vao:
-  - Khong de trong email va mat khau.
-  - Kiem tra dinh dang email hop le trong phien ban Tailwind.
-  - Kiem tra do dai toi thieu cua mat khau trong phien ban Tailwind.
-- Hien thi thong bao loi ngay tren giao dien khi nguoi dung nhap sai.
+- Two-column login page layout
+- `Continue with Google` button for third-party sign-in UI
+- Login form with email and password fields
+- Input validation:
+  - Required email and password fields
+  - Email format validation in the Tailwind version
+  - Minimum password length validation in the Tailwind version
+- Inline error messages shown directly in the interface
 
-## Cau truc du an
+## Project Structure
 
 ```text
 .
@@ -53,10 +53,10 @@ Giao dien duoc xay dung theo phong cach hien dai, chia thanh hai khu vuc chinh:
 `-- images/
 ```
 
-## Y nghia du an
+## Project Purpose
 
-Du an the hien kha nang chuyen doi tu thiet ke Figma sang giao dien web thuc te, dong thoi cho thay cach toi trien khai cung mot layout bang nhieu huong khac nhau: CSS thuan, Bootstrap va Tailwind. Day la bai tap phu hop de luyen ky nang cat giao dien, can chinh pixel, responsive va xu ly form co ban.
+This project demonstrates my ability to translate a Figma design into a working web interface. It also shows how the same layout can be implemented using different approaches, including pure CSS, Bootstrap, and Tailwind CSS. It is a good practice project for improving UI slicing, pixel alignment, responsive design, and basic form handling skills.
 
-## Mo ta ngan de dua vao portfolio
+## Short Portfolio Description
 
-> Toi thiet ke va cat giao dien trang dang nhap dua tren Figma, sau do trien khai lai bang HTML, CSS, JavaScript va thu nghiem them cac phien ban Bootstrap/Tailwind de so sanh cach xay dung giao dien, responsive va xu ly form.
+> I designed and developed a login page based on a Figma mockup, then recreated it using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS to compare layout implementation, responsiveness, and form validation approaches.
